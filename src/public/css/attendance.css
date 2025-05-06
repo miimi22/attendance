@@ -1,0 +1,79 @@
+.contents {
+    width: 680px;
+    margin: 130px auto;
+    text-align: center;
+}
+
+.situation {
+    color: #696969;
+    background-color: #c8c8c8;
+    border-radius: 25px;
+    display: inline;
+    padding: 5px 15px;
+}
+
+.date {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.time {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.work-start-button {
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px 60px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.work-end {
+    display: flex;
+    justify-content: center;
+}
+
+.work-end-button {
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px 60px;
+    font-weight: bold;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.rest-start-button {
+    color: black;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.rest-end-button {
+    color: black;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.good-work-message {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}

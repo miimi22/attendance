@@ -1,0 +1,49 @@
+.contents {
+    width: 750px;
+    margin: 100px auto;
+}
+
+.staff-list-title {
+    border-left: solid 8px black;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.staff-list {
+    color: #737373;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border-bottom: 2px solid #e1e1e1;
+}
+
+.name {
+    width: 30%;
+    padding: 10px 0;
+}
+
+.email {
+    width: 40%;
+}
+
+.month-attendance {
+    width: 30%;
+}
+
+.name-value {
+    padding: 10px 0;
+}
+
+.detail-value {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

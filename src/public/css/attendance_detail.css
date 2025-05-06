@@ -1,0 +1,150 @@
+.contents {
+    width: 730px;
+    margin: 100px auto;
+}
+
+.attendance-detail-title {
+    border-left: solid 8px black;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+
+.attendance-detail-form {
+    background-color: white;
+    border-radius: 10px;
+    color: #737373;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border-bottom: 2px solid #e1e1e1;
+}
+
+.name {
+    width: 20%;
+    padding: 25px 50px;
+}
+
+.name-value {
+    width: 20%;
+    padding-left: 15px;
+    color: black;
+}
+
+.date {
+    padding: 25px 50px;
+}
+
+.date-year {
+    display: inline;
+    margin-right: 120px;
+    margin-left: 15px;
+    color: black;
+}
+
+.date-value {
+    display: inline;
+    color: black;
+}
+
+input[type="time"] {
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    padding: 0 20px;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    opacity: 0;
+}
+
+.work {
+    padding: 25px 50px;
+}
+
+.readonly-work-start {
+    margin-right: 55px;
+    margin-left: 15px;
+    color: black;
+}
+
+.readonly-work-end {
+    margin-left: 15px;
+    color: black;
+}
+
+.work-start {
+    margin-right: 40px;
+}
+
+.mark {
+    display: inline;
+    margin-right: 40px;
+    color: black;
+}
+
+.rest {
+    padding: 25px 50px;
+}
+
+.readonly-rest-start {
+    margin-right: 55px;
+    margin-left: 15px;
+    color: black;
+}
+
+.readonly-rest-end {
+    margin-left: 15px;
+    color: black;
+}
+
+.rest-start {
+    margin-right: 40px;
+}
+
+.remarks {
+    padding: 25px 50px;
+}
+
+.readonly-remarks {
+    margin-left: 15px;
+    color: black;
+}
+
+.remarks-value {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    resize: none;
+}
+
+.correction-button {
+    margin: 100px 0 0 auto;
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 7px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pending-message {
+    text-align: right;
+    color: red;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.input_error_message {
+    color: red;
+}
+
+.textarea_error_message {
+    color: red;
+}

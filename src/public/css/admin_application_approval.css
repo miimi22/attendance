@@ -1,0 +1,123 @@
+.contents {
+    width: 730px;
+    margin: 100px auto;
+}
+
+.attendance-detail-title {
+    border-left: solid 8px black;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+
+.attendance-detail-form {
+    background-color: white;
+    border-radius: 10px;
+    color: #737373;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border-bottom: 2px solid #e1e1e1;
+}
+
+.name {
+    width: 20%;
+    padding: 25px 50px;
+}
+
+.name-value {
+    width: 20%;
+    color: black;
+}
+
+.date {
+    padding: 25px 50px;
+}
+
+.date-year {
+    display: inline;
+    margin-right: 120px;
+    color: black;
+}
+
+.date-value {
+    display: inline;
+    color: black;
+}
+
+.work {
+    padding: 25px 50px;
+}
+
+.work-start {
+    display: inline;
+    margin-right: 60px;
+    color: black;
+}
+
+.mark {
+    display: inline;
+    margin-right: 60px;
+    color: black;
+}
+
+.work-end {
+    display: inline;
+    color: black;
+}
+
+.rest {
+    padding: 25px 50px;
+}
+
+.rest-start {
+    display: inline;
+    margin-right: 60px;
+    color: black;
+}
+
+.rest-end {
+    display: inline;
+    color: black;
+}
+
+.remarks {
+    padding: 25px 50px;
+}
+
+.remarks-value {
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.approval-button {
+    margin: 100px 0 0 auto;
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 7px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.approved {
+    text-align: center;
+    background-color: #696969;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 100px;
+}

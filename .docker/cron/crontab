@@ -1,0 +1,1 @@
+* * * * * /usr/bin/docker exec -i attendance-php-1 php artisan schedule:run >> /var/log/cron.log 2>&1
