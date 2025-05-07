@@ -140,7 +140,7 @@ class AttendanceController extends Controller
                 'accepted' => 0,
                 'corrected_work_start' => $correctedWorkStart,
                 'corrected_work_end' => $correctedWorkEnd,
-                'corrected_rests' => !empty($correctedRestsData) ? json_encode($correctedRestsData) : null,
+                'corrected_rests' => !empty($correctedRestsData) ? $correctedRestsData : null,
             ]);
 
             return redirect()->route('application.list')
