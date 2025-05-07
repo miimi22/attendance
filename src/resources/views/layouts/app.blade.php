@@ -13,7 +13,7 @@
     <header class="header">
         <div class="header__inner">
             <div class="header-left">
-                <a href="/"><img src="{{ asset('images/logo.svg') }}" alt="coachtech" class="header-logo"></a>
+                <a href="{{ auth()->check() && auth()->user()->isAdmin() ? '/admin/attendance/list' : '/attendance' }}"><img src="{{ asset('images/logo.svg') }}" alt="coachtech" class="header-logo"></a>
             </div>
             @if(auth()->check() && request()->path() != 'login' && request()->path() != 'register' && request()->path() != 'admin/login' && request()->path() != 'email/verify')
             <div class="header-right">
