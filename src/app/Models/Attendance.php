@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Log;
 
 class Attendance extends Model
 {
+    use HasFactory;
+
     protected $fillable = ['user_id', 'date', 'work_start', 'work_end', 'total_work'];
 
     protected $casts = [

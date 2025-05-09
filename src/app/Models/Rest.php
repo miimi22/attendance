@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Rest extends Model
 {
+    use HasFactory;
+    
     protected $table = 'rests';
 
     protected $fillable = ['attendance_id', 'rest_start', 'rest_end'];

@@ -46,7 +46,7 @@ class AttendanceController extends Controller
         }
 
         throw ValidationException::withMessages([
-            'email' => '認証情報が一致しません。',
+            'email' => 'ログイン情報が登録されていません',
         ]);
     }
 
