@@ -115,7 +115,7 @@ password：coachtech6
 ・MySQL 8.0.41
 
 ## ER図
-![attendance-er](https://github.com/user-attachments/assets/5ecc1f8b-508c-469f-ba56-fd5cb75a9517)
+![attendance-er](https://github.com/user-attachments/assets/c5520fbb-0df3-4db2-a1b2-200f07f3af5b)
 
 ## URL
 ・出勤登録画面：http://localhost/attendance
