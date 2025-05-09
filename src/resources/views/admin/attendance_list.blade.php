@@ -12,9 +12,9 @@
 <div class="contents">
     <h1 class="attendance-list-title">{{ $displayDate }}の勤怠</h1>
     <div class="calender-nav">
-        <a href="{{ route('admin.attendance.list', ['date' => $previousDate]) }}" class="last-day"><img src="{{ asset('images/arrow1.png') }}" alt="←" class="arrow-logo">&nbsp前日</a>
+        <a href="{{ route('admin.attendance.list', ['date' => $previousDate]) }}" class="last-day"><img src="{{ asset('images/arrow1.png') }}" alt="←" class="arrow-logo">&nbsp;前日</a>
         <div class="calender"><img src="{{ asset('images/calender.png') }}" alt="カレンダー" class="calender-logo">&nbsp;{{ \Carbon\Carbon::parse($currentDate)->format('Y/m/d') }}</div>
-        <a href="{{ route('admin.attendance.list', ['date' => $nextDate]) }}" class="next-day">翌日&nbsp<img src="{{ asset('images/arrow2.png') }}" alt="→" class="arrow-logo"></a>
+        <a href="{{ route('admin.attendance.list', ['date' => $nextDate]) }}" class="next-day">翌日&nbsp;<img src="{{ asset('images/arrow2.png') }}" alt="→" class="arrow-logo"></a>
     </div>
     <table class="attendance-list">
         <thead>

@@ -12,9 +12,9 @@
 <div class="contents">
     <h1 class="staff-attendance-list-title">{{ $user->name }}さんの勤怠</h1>
     <div class="calender-nav">
-        <a href="{{ route('admin.staff.attendance.list', ['id' => $user->id, 'yearMonth' => $prevMonth]) }}" class="last-month"><img src="{{ asset('images/arrow1.png') }}" alt="←" class="arrow-logo">&nbsp前月</a>
-        <div class="calender"><img src="{{ asset('images/calender.png') }}" alt="カレンダー" class="calender-logo">&nbsp{{ $displayMonth }}</div>
-        <a href="{{ route('admin.staff.attendance.list', ['id' => $user->id, 'yearMonth' => $nextMonth]) }}" class="next-month">翌月&nbsp<img src="{{ asset('images/arrow2.png') }}" alt="→" class="arrow-logo"></a>
+        <a href="{{ route('admin.staff.attendance.list', ['id' => $user->id, 'yearMonth' => $prevMonth]) }}" class="last-month"><img src="{{ asset('images/arrow1.png') }}" alt="←" class="arrow-logo">&nbsp;前月</a>
+        <div class="calender"><img src="{{ asset('images/calender.png') }}" alt="カレンダー" class="calender-logo">&nbsp;{{ $displayMonth }}</div>
+        <a href="{{ route('admin.staff.attendance.list', ['id' => $user->id, 'yearMonth' => $nextMonth]) }}" class="next-month">翌月&nbsp;<img src="{{ asset('images/arrow2.png') }}" alt="→" class="arrow-logo"></a>
     </div>
     <table class="attendance-list">
         <thead>
