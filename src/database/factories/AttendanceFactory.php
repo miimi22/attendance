@@ -23,11 +23,17 @@ class AttendanceFactory extends Factory
      */
     public function definition()
     {
+        $workStartTime = $this->faker->time('H:i:s');
+        $workEndTime = null;
+        if ($this->faker->boolean(80)) {
+            $workEndTime = Carbon::parse($workStartTime)->addHours($this->faker->numberBetween(1, 9))->format('H:i:s');
+        }
+
         return [
             'user_id' => User::factory(),
-            'date' => $this->faker->date(),
-            'work_start' => $this->faker->dateTimeThisMonth(),
-            'work_end' => null,
+            'date' => Carbon::today()->format('Y-m-d'),
+            'work_start' => $workStartTime,
+            'work_end' => $workEndTime,
             'total_work' => null,
         ];
     }

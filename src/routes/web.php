@@ -39,7 +39,7 @@ Route::middleware('admin')->group(function () {
     Route::get('/admin/attendance/list/{date?}', [AdminAttendanceController::class, 'attendance_list'])
         ->name('admin.attendance.list')
         ->where('date', '[0-9]{4}-[0-9]{2}-[0-9]{2}');
-    Route::get('/admin/staff/list', [AdminStaffController::class, 'staff_list']);
+    Route::get('/admin/staff/list', [AdminStaffController::class, 'staff_list'])->name('admin.staff.list');
     Route::get('/admin/attendance/staff/{id}/{yearMonth?}', [AdminStaffController::class, 'staff_attendance_list'])
         ->name('admin.staff.attendance.list')
         ->where('id', '[0-9]+')
